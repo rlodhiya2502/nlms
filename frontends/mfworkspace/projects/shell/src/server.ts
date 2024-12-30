@@ -1,3 +1,5 @@
+import { CustomResourceLoader } from '@nguniversal/common/clover/server/src/custom-resource-loader';
+import { createFetch } from '@angular-architects/module-federation/nguniversal';
 import { APP_BASE_HREF } from '@angular/common';
 import { CommonEngine, isMainModule } from '@angular/ssr/node';
 import express from 'express';
